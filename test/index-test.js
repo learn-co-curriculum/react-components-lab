@@ -14,7 +14,7 @@ describe('OlderCoaster', () => {
     wrapper = shallow(React.createElement(OlderCoaster));
   });
 
-  it('renders withouth crashing', () => {
+  it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<OlderCoaster />, div);
   });
@@ -31,7 +31,7 @@ describe('InFrontOfYou', () => {
     wrapper = shallow(React.createElement(InFrontOfYou));
   });
 
-  it('renders withouth crashing', () => {
+  it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<InFrontOfYou />, div);
   });
@@ -48,7 +48,7 @@ describe('ButcherShop', () => {
     wrapper = shallow(React.createElement(ButcherShop));
   });
 
-  it('renders withouth crashing', () => {
+  it('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<ButcherShop />, div);
   });
